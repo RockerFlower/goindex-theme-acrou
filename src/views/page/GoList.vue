@@ -113,6 +113,7 @@ export default {
         "application/x-subrip": "icon-srt",
         "application/zip": "icon-zip",
         "application/x-zip-compressed": "icon-zip",
+        "application/vnd.android.package-archive": "icon-zip",
         "application/rar": "icon-rar",
         "application/pdf": "icon-pdf",
         "application/json": "icon-JSON1",
