@@ -2,7 +2,7 @@
 
 结合 [Cloudflare Workers](https://workers.cloudflare.com/) 和 [Google Drive](https://www.google.com/drive/) 的力量，你可以在Cloudflare Workers的浏览器上建立你的文件索引。
 
-[goindex/index.js](https://github.com/Aicirou/goindex-theme-acrou/go2index) 是Workers脚本的内容。
+[goindex/index.js](https://github.com/RockerFlower/goindex-theme-acrou/go2index) 是Workers脚本的内容。
 
 这个主题的goindex目前是基于 [yanzai/goindex](https://github.com/yanzai/goindex/)
 
@@ -42,7 +42,7 @@ Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/)
 2. 创建一个 [OAuth client ID](https://console.developers.google.com/apis/credentials/oauthclient)
 3. 本地安装[rclone](https://rclone.org/downloads/)
 4. 使用`rclone`获取`refresh_token`
-5. 下载`index.js` (https://github.com/Aicirou/goindex-theme-acrou/tree/master/go2index) 然后替换`client_id`,`client_secret`,`refresh_token` 为你刚刚获取到的
+5. 下载`index.js` (https://github.com/RockerFlower/goindex-theme-acrou/tree/master/go2index) 然后替换`client_id`,`client_secret`,`refresh_token` 为你刚刚获取到的
 6. 把代码部署到[Cloudflare Workers](https://www.cloudflare.com/)
 
 > 如果你写了一篇不错的文章，想分享给大家，请提交Issues，我会把链接贴在这里。
@@ -55,9 +55,9 @@ Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/)
 - 支持自定义视频播放器（API）
 - 美化：网格模式文件无预览图时显示图标
 - 美化：调整HEAD.md渲染位置
-- 解决搜索不能预览的文件点击无法直接下载 [#30](https://github.com/Aicirou/goindex-theme-acrou/issues/30)
-- 解决文件名中有#无法打开的问题 [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20)
-- 解决当前页面加载中切换页面会回退的问题 [#37](https://github.com/Aicirou/goindex-theme-acrou/issues/37) (感谢[@PedroZhang](https://github.com/PedroZhang)帮忙找出的问题原因)
+- 解决搜索不能预览的文件点击无法直接下载 [#30](https://github.com/RockerFlower/goindex-theme-acrou/issues/30)
+- 解决文件名中有#无法打开的问题 [#20](https://github.com/RockerFlower/goindex-theme-acrou/issues/20)
+- 解决当前页面加载中切换页面会回退的问题 [#37](https://github.com/RockerFlower/goindex-theme-acrou/issues/37) (感谢[@PedroZhang](https://github.com/PedroZhang)帮忙找出的问题原因)
 
 ### 2020-5-20
 
@@ -74,7 +74,7 @@ Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/)
 - 支持快速部署（帮助小白的利器）
 - 支持PDF在线预览
 - 更换文本编辑器
-- 解决url编码问题 [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20) [#23](https://github.com/Aicirou/goindex-theme-acrou/issues/23) [#25](https://github.com/Aicirou/goindex-theme-acrou/issues/25)
+- 解决url编码问题 [#20](https://github.com/RockerFlower/goindex-theme-acrou/issues/20) [#23](https://github.com/RockerFlower/goindex-theme-acrou/issues/23) [#25](https://github.com/RockerFlower/goindex-theme-acrou/issues/25)
 - 解决其他已知问题
 
 ### 2020-4-29
