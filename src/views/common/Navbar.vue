@@ -68,7 +68,7 @@
             title="View on github"
             href="https://github.com/RockerFlower/goindex-theme-acrou"
           >
-            <i class="fab fa-github"></i>
+            <i class="fab fa-bolt"></i>
           </a>
           <header-setting />
           <a
